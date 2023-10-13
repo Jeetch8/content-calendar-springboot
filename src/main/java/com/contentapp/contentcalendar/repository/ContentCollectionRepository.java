@@ -53,4 +53,5 @@ public class ContentCollectionRepository {
     public void deleteContent(Integer id) {
         contentList.removeIf(c -> c.id().equals(id));
     }
+
 }
